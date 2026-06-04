@@ -14,7 +14,7 @@ cask "vibebar" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "VibeBar.app"
 
@@ -27,8 +27,8 @@ cask "vibebar" do
 
   zap trash: [
     "~/Library/Application Support/VibeBar",
-    "~/Library/Preferences/com.vibebar.app.plist",
     "~/Library/Caches/com.vibebar.app",
     "~/Library/Logs/VibeBar",
+    "~/Library/Preferences/com.vibebar.app.plist",
   ]
 end
