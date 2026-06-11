@@ -1,9 +1,9 @@
 cask "rust-redis-desktop" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.6"
-  sha256 arm:   "969a3dbb4b0d87d01bd805b94df9d9220704e2d8199946bd5eac5aafe924f350",
-         intel: "91797f544058339030f3624a3c6ff7cd2968ab4777067273d0d2f8e6ae9a9da8"
+  version "0.1.7"
+  sha256 arm:   "1e50ffb785b5aa6b9fb67ff9001840bd634e38906fcfba3d34b7311f92c97ab0",
+         intel: "5dcd13d263e6b8c7f01320a7404060364eda4055e8c7a38c8998b9e9bc33c38b"
 
   url "https://github.com/yelog/rust-redis-desktop/releases/download/v#{version}/rust-redis-desktop-#{arch}.dmg"
   name "Rust Redis Desktop"
