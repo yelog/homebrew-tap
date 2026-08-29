@@ -1,22 +1,13 @@
 # Homebrew Tap
 
-Homebrew tap for [Rust Redis Desktop](https://github.com/yelog/rust-redis-desktop).
+Homebrew tap for tools published by [yelog](https://github.com/yelog).
 
-## Install
+## LazyDB
 
-```sh
-brew tap yelog/tap
-brew install --cask rust-redis-desktop
-```
-
-## Uninstall
+Install the stable LazyDB CLI on macOS:
 
 ```sh
-brew uninstall --cask rust-redis-desktop
+brew install yelog/tap/lazydb
 ```
 
-Remove app data as well:
-
-```sh
-brew zap --cask rust-redis-desktop
-```
+Beta versions are distributed from the [LazyDB GitHub prereleases](https://github.com/yelog/lazydb/releases) and are not published to the default Formula.
