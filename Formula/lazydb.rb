@@ -1,16 +1,16 @@
 class Lazydb < Formula
   desc "A keyboard-first terminal database IDE"
   homepage "https://github.com/yelog/lazydb"
-  version "0.1.9"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yelog/lazydb/releases/download/v0.1.9/lazydb_0.1.9_x86_64-apple-darwin.tar.xz"
-      sha256 "a67781b381804585d2c8cfa838072ac11b3b0c9651440300933f957553dc0714"
+      url "https://github.com/yelog/lazydb/releases/download/v0.2.0/lazydb_0.2.0_x86_64-apple-darwin.tar.xz"
+      sha256 "10473095eec680b5812b8f900a3a1a4b90863999c08c1c31ab9793af7eccce16"
     else
-      url "https://github.com/yelog/lazydb/releases/download/v0.1.9/lazydb_0.1.9_aarch64-apple-darwin.tar.xz"
-      sha256 "1b5d73a872bf651225331ca7eb64786f59e446d53d6557c3bf3bbc3bc3b703e6"
+      url "https://github.com/yelog/lazydb/releases/download/v0.2.0/lazydb_0.2.0_aarch64-apple-darwin.tar.xz"
+      sha256 "797b827a758c6cd87b0871a58d64a4b6656020dce9ea8c435088ec433d94ac40"
     end
   end
 
